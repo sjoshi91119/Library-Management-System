@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: #ffffff;
+    font-family: 'Inter';
+}
+body{
+    background-color: black;
+}
+#container{
+    margin-top: 25px;
+    margin-left: 5vw;
+}
+#heading{
+  font-size: 20px; 
+}
+.inputs1{
+    margin-top: 40px;
+    display: flex;
+  
+}
+.inputs2{
+    margin-top: 10px;
+    display: flex;
+  
+}
+#input_book_name_lable{
+    font-size: 20px;
+}
+#input_book_name{
+    position: relative;
+    left: 38px;
+    top: -8px;
+
+    
+}
+#bookName{
+    background-color: rgb(0, 0, 0);
+    border: 1px solid white;
+    height: 40px;
+    width: 450px;
+    font-size: 22px;
+}
+#input_user_name_lable{
+    font-size: 22px;
+}
+#input_user_name{
+    position: relative;
+    left: 45px;
+    top: -8px;
+}
+#issuedTo{
+    background-color: rgb(0, 0, 0);
+    border: 1px solid white;
+    height: 40px;
+    width: 450px;
+    font-size: 22px;
+    
+}
+#issue_Books{
+    position: relative;
+    top: 10px;
+    color: black;
+  width: 605px;
+  height: 40px;
+   font-size:16px;
+}
+#issue_Books:active{
+    background-color:grey;
+    font-size: 15px;
+    transition:1s;
+}
+table{
+    margin-top:3vh;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-bottom:1px solid white;
+    height: 20px;
+    width: 1330px;
+}
+th{
+    text-align: left;
+    
+    padding:10px 10px;
+    border-right: 1px solid white;
+    border-bottom:1px solid white;
+}
+
+td{
+    
+    border-right:1px solid white;
+    padding-left:10px;
+    padding:8px;
+    
+}

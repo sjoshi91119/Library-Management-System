@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+
+    
+   <div id="container">
+    <div id="heading">
+        <h1>Library Management System</h1>
+    </div>
+    <form>
+        <div class="inputs">
+            <div class="inputs1">
+            <div id="input_book_name_lable">
+      <label for="bookName">Book Name:</label>
+ </div>
+ <div id="input_book_name">
+      <input type="text" id="bookName" name="bookName">
+    </div>
+</div>
+      <br>
+      <div class="inputs2">
+      <div id="input_user_name_lable">
+      <label for="issuedTo">Issued To:</label>
+    </div>
+    <div id="input_user_name">
+      <input type="text" id="issuedTo" name="issuedTo">
+    </div>
+      <br>
+    </div>
+    </div>
+
+      <input type="button" id="issue_Books" value="Issue Book" onclick="issueBook()">
+
+    </form>
+    <br>
+    <table id="issuedBooksTable">
+      <tr>
+        <th>ID</th>
+        <th>Book Name</th>
+        <th>Issued To</th>
+        <th>Issue Date and Time</th>
+        <th>Status</th>
+        <!-- <img src="image.png" id="change" onclick="submission()"> -->
+      </tr>
+    </table>
+
+   </div>
+  </body>
+</html>
